@@ -11,6 +11,12 @@ body{
     color: #F0F0F0;
     text-align: center;
     border: 5px solid #F0F0F0;
+    margin: 2px;
+}
+.sm-btn-design{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
 }
 .red-circle{
     background-color: #E6563B;
