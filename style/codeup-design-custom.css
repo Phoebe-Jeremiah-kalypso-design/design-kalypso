@@ -13,6 +13,19 @@ body{
     border: 5px solid #F0F0F0;
     margin: 2px;
 }
+.sm-btn-design{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 2px;
+}
+.card-body{
+    float: left;
+
+}
 .red-circle{
     background-color: #E6563B;
 }
