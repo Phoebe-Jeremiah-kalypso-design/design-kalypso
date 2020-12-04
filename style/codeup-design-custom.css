@@ -1,22 +1,32 @@
-body{
-    background-color: #F0F0F0;
-}
 .container{
     background-color: #E6E6E6;
-}
-.circle{
-    height: 105px;
-    width: 105px;
-    border-radius: 50%;
-    color: #F0F0F0;
     text-align: center;
-    border: 5px solid #F0F0F0;
-    margin: 2px;
 }
-.sm-btn-design{
-    height: 18px;
+h1{
+    font-weight: bold;
+}
+.card-img-top{
+    width: 200px;
+    height: 200px;
+}
+.sm-btn {
+    background: orange;
     width: 18px;
+    height: 18px;
     border-radius: 50%;
+    color: black;
+    padding: 5px;
+    font-weight: bold;
+}
+.btn-design{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /*margin: auto;*/
+    border: 5px solid #F0F0F0;
+    color: #F0F0F0;
+    font-weight: bold;
+    font-size: 25px;
 }
 .red-circle{
     background-color: #E6563B;
@@ -29,4 +39,47 @@ body{
 }
 .blue-circle{
     background-color: #00ABA9;
+}
+.top-circle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+}
+.navbar-nav > li{
+    margin: 10px;
+    padding: 10px;
+}
+.sm-image{
+    height: 50px;
+    width: 50px;
+}
+.position{
+    display: flex;
+    flex-direction: row;
+}
+/* Small devices (phones and pocket devices, 576 and up) */
+@media screen and (min-width:576px) {
+/*.logo {*/
+/*    display: block;*/
+/*    margin-left: auto;*/
+/*    margin-right: auto*/
+/*}*/
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width:768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width:992px){
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width:1200px){
+
 }

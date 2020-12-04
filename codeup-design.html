@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
           integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -10,45 +11,106 @@
 </head>
 <body>
 <div class="container">
-    <!--    this is the nav area-->
-    <div>
-        <!--    this is the nav area-->
-    </div>
-<!--    this is the header part-->
-    <div class="row d-flex justify-content-center">
-        <div class="col-12 col-md-12 col-lg-12 text-center">
-            <h1>VISUAL DESIGN & WEB DEVELOPMENT</h1>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid logo">
+            <div class="navbar-header">
+                <img class="card-img-top" src="images/logo.png" alt="logo">
+                <p>codeup design</p>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active">Service</li>
+                <li>Work</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </ul>
         </div>
-        <div class="col-12 col-md-12 col-lg-12 text-center">
-            <h2>FROM PARK CITY, UTAH</h2>
-        </div>
-        <div class="col-6">
+    </nav>
+    <h1>VISUAL DESIGN & WEB DEVELOPMENT</h1>
+    <h2>FROM PARK CITY, UTAH</h2>
+    <div class="row">
+        <div class="col col-md-6 col-lg-6">
             <button type="button" class="btn btn-design circle red-circle">DESIGN</button>
             <button type="button" class="btn btn-design circle orange-circle">DEVELOP</button>
+        </div>
+        <div class="col col-md-6 col-lg-6">
             <button type="button" class="btn btn-design circle green-circle">SUPPORT</button>
             <button type="button" class="btn btn-design circle blue-circle">HOST</button>
         </div>
-
     </div>
-<!--    this is the lower body-->
     <div class="row">
-        <div class="col">
-            <p>Selected Work</p>
-        </div>
-        <div class="col">
-            <div class="card" style="width: 18rem;">
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+            <div class="card1" style="width: 18rem;">
+                <img class="card-img-top" src="images/apple-ipad.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">
+                        FEATURED PROJECT
+                        <a href="#" class="sm-btn red-circle">D</a>
+                        <a href="#" class="sm-btn orange-circle">D</a>
+                        <a href="#" class="sm-btn green-circle">S</a>
+                        <a href="#" class="sm-btn blue-circle">H</a></p>
+                </div>
+            </div>
+            <div class="card2" style="width: 18rem;">
                 <img class="card-img-top" src="images/macbook.jpg" alt="Card image cap">
                 <div class="card-body">
-                    <p class="card-text">FEATURED PROJECT
-                        <button type ="button" class="btn sm-btn-design col-1 red-circle">D</button>
-                        <button type ="button" class="btn sm-btn-design col-1 orange-circle">D</button>
-                        <button type ="button" class="btn sm-btn-design col-1 orange-circle">S</button>
-                        <button type ="button" class="btn sm-btn-design col-1 blue-circle">H</button>
-                    </p>
+                    <p class="card-text">
+                        FEATURED PROJECT
+                        <a href="#" class="sm-btn red-circle">D</a>
+                        <a href="#" class="sm-btn orange-circle">D</a>
+                        <a href="#" class="sm-btn green-circle">S</a>
+                        <a href="#" class="sm-btn blue-circle">H</a></p>
                 </div>
             </div>
         </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+            <div class="card3" style="width: 18rem;">
+                <img class="card-img-top" src="images/man.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">
+                        FEATURED PROJECT
+                        <a href="#" class="sm-btn red-circle">D</a>
+                        <a href="#" class="sm-btn orange-circle">D</a>
+                        <a href="#" class="sm-btn green-circle">S</a>
+                        <a href="#" class="sm-btn blue-circle">H</a></p>
+                </div>
+            </div>
+            <div class="card4" style="width: 18rem;">
+                <img class="card-img-top" src="images/security.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">
+                        FEATURED PROJECT
+                        <a href="#" class="sm-btn red-circle">D</a>
+                        <a href="#" class="sm-btn orange-circle">D</a>
+                        <a href="#" class="sm-btn green-circle">S</a>
+                        <a href="#" class="sm-btn blue-circle">H</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4 no-small">
+            <p>THE LAST</p>
+            <div class="position">
+                <img class="sm-image" src="images/mobile-phone.jpg" alt="">
+                <h6>THE ADMIN BAR AND THE ABSOLUTE POSITIONING</h6>
+            </div>
+            <div class="position">
+                <img class="sm-image" src="images/head.jpg" alt="">
+                <h6>NIBBLER AWESOME WEBSITE TESTING</h6>
+            </div>
+            <div class="position">
+                <img class="sm-image" src="images/ipad.jpg" alt="">
+                <h6>HOW TO GET GOOGLE TO LIKE YOU</h6>
+            </div>
+            <div class="position">
+                <img class="sm-image" src="images/twitter-icon.png" alt="">
+                <h6>LAST TWEET</h6>
+            </div>
+            <div class="position">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi architecto deleniti dicta
+                    ducimus eligendi est fugiat incidunt ipsam laudantium libero maxime</p>
+            </div>
+        </div>
     </div>
+
 </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
