@@ -57,6 +57,7 @@ h1{
     height: 50px;
     width: 50px;
 }
+
 .position{
     display: flex;
     flex-direction: row;
