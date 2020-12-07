@@ -6,123 +6,155 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
           integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     <link rel="stylesheet" href="style/codeup-design-custom.css">
     <title>Sample Design</title>
 </head>
 <body>
-<div class="jumbotron">
+<div class="nav-background"></div>
+<div class="jumbotron container-fluid">
     <div class="container">
         <!--    nav bar-->
-        <nav class="navbar navbar-default">
-            <div class="container-fluid logo">
-                <div class="navbar-header">
-                    <img class="logo-img" src="images/logo.png" alt="logo">
-                    <p>codeup design</p>
-                </div>
-                <ul class="nav navbar-nav">
-                    <li class="active">Service</li>
-                    <li>Work</li>
-                    <li>Blog</li>
-                    <li>Contact</li>
+        <nav class="navbar">
+            <div class="container d-flex flex-wrap">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img class="logo-img" src="images/logo.png" alt="logo">
+                            <div>codeup design</div>
+                        </a>
+                    </li>
+                    <div class="col-12 col-md-8 col-xl-8 d-flex justify-content-between nav-pos">
+                        <li class="nav-item ">
+                            <a href="#">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">WORK</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">CONTACT</a>
+                        </li>
+                    </div>
                 </ul>
             </div>
         </nav>
         <!--    top section-->
-        <div class="container-fluid top-container">
-            <h1>VISUAL DESIGN & WEB DEVELOPMENT</h1>
+        <div class="container-fluid top-container d">
+            <div class="VSWD"><h1>VISUAL DESIGN & WEB DEVELOPMENT</h1></div>
             <h2>FROM PARK CITY, UTAH</h2>
-            <div class="col-12 lg-btn">
+            <div class="lg-btn">
                 <button type="button" class="btn btn-design circle red-circle">DESIGN</button>
                 <button type="button" class="btn btn-design circle orange-circle">DEVELOP</button>
                 <button type="button" class="btn btn-design circle green-circle">SUPPORT</button>
                 <button type="button" class="btn btn-design circle blue-circle">HOST</button>
             </div>
         </div>
+        <hr class="d-none d-sm-block">
         <!--bottom section-->
         <div class="container-fluid bottom-container">
             <div class="row ">
-                <div class="col-12 col-sm-12 col-md-8 col-lg-8"><h6>SELECTED WORK</h6></div>
-                <div class="col col-lg-4 hide-xs hide-sm"><h6>THE LAST</h6></div>
-            </div><br>
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8 h6-left"><h6>SELECTED WORK</h6></div>
+                <div class="col col-lg-4 hide-xs hide-sm d-none d-md-block"><h6>THE LAST</h6></div>
+            </div>
+
+            <br>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 align-items-center">
                 <!--        first column-->
-                <div class="col column">
+                <div>
                     <div class="card1">
                         <img class="card-img-top" src="images/apple-ipad.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">
+                        <div class="card-body d-flex bd-highlight">
+                            <div class="card-text p-2 flex-grow-1 bd-highlight d-flex justify-content-start">
                                 FEATURED PROJECT
+                            </div>
+                            <div>
                                 <a href="#" class="sm-btn red-circle">D</a>
-                                <a href="#" class="sm-btn orange-circle">D</a>
+                                <a href="#" class="sm-btn orange-circle ">D</a>
                                 <a href="#" class="sm-btn green-circle">S</a>
-                                <a href="#" class="sm-btn blue-circle">H</a></p>
+                                <a href="#" class="sm-btn blue-circle">H</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="card2 hide-xs">
+                    <div class="card2 d-none d-sm-block">
                         <img class="card-img-top" src="images/macbook.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">
+                        <div class="card-body d-flex bd-highlight">
+                            <div class="card-text p-2 flex-grow-1 bd-highlight d-flex justify-content-start">
                                 FEATURED PROJECT
+                            </div>
+                            <div>
                                 <a href="#" class="sm-btn red-circle">D</a>
-                                <a href="#" class="sm-btn orange-circle">D</a>
+                                <a href="#" class="sm-btn orange-circle ">D</a>
                                 <a href="#" class="sm-btn green-circle">S</a>
-                                <a href="#" class="sm-btn blue-circle">H</a></p>
+                                <a href="#" class="sm-btn blue-circle">H</a>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <!--        second column-->
-                <div class="col column hide-xs">
-                    <div class="card3">
-                        <img class="card-img-top" src="images/man.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">
-                                FEATURED PROJECT
-                                <a href="#" class="sm-btn red-circle">D</a>
-                                <a href="#" class="sm-btn orange-circle">D</a>
-                                <a href="#" class="sm-btn green-circle">S</a>
-                                <a href="#" class="sm-btn blue-circle">H</a></p>
-                        </div>
-                    </div>
-                    <div class="card4">
-                        <img class="card-img-top" src="images/security.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">
-                                FEATURED PROJECT
-                                <a href="#" class="sm-btn red-circle">D</a>
-                                <a href="#" class="sm-btn orange-circle">D</a>
-                                <a href="#" class="sm-btn green-circle">S</a>
-                                <a href="#" class="sm-btn blue-circle">H</a></p>
-                        </div>
-                    </div>
-                </div>
-                <!--        third column-->
-                <div class="col align-self-start hide-xs hide-sm column last-col">
-                    <!--                <p>THE LAST</p>-->
-                    <div class="img-position">
-                        <img class="sm-image" src="images/mobile-phone.jpg" alt="">
-                        <H5>THE ADMIN BAR AND THE ABSOLUTE POSITIONING</H5>
-                    </div>
-                    <div class="img-position">
-                        <img class="sm-image" src="images/head.jpg" alt="">
-                        <H5>NIBBLER AWESOME WEBSITE TESTING</H5>
-                    </div>
-                    <div class="img-position">
-                        <img class="sm-image" src="images/ipad.jpg" alt="">
-                        <h5>HOW TO GET GOOGLE TO LIKE YOU</h5>
-                    </div>
-                    <br><br>
-                    <div class="img-position">
-                        <img class="sm-image" src="images/twitter-icon.png" alt="">
-                        <br><h6>LAST TWEET</h6><br>
-                    </div>
-                    <div class="img-position">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi architecto deleniti dicta
-                            ducimus eligendi est fugiat incidunt ipsam laudantium libero maxime</p>
                     </div>
                 </div>
             </div>
+            <!--        second column-->
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 align-items-center d-none d-sm-block">
+                <!--        first column-->
+                <div>
+                    <div class="card1">
+                        <img class="card-img-top" src="images/man.jpg" alt="Card image cap">
+                        <div class="card-body d-flex bd-highlight">
+                            <div class="card-text p-2 flex-grow-1 bd-highlight d-flex justify-content-start">
+                                FEATURED PROJECT
+                            </div>
+                            <div>
+                                <a href="#" class="sm-btn red-circle">D</a>
+                                <a href="#" class="sm-btn orange-circle ">D</a>
+                                <a href="#" class="sm-btn green-circle">S</a>
+                                <a href="#" class="sm-btn blue-circle">H</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card2 d-none d-sm-block">
+                        <img class="card-img-top" src="images/security.jpg" alt="Card image cap">
+                        <div class="card-body d-flex bd-highlight">
+                            <div class="card-text p-2 flex-grow-1 bd-highlight d-flex justify-content-start">
+                                FEATURED PROJECT
+                            </div>
+                            <div>
+                                <a href="#" class="sm-btn red-circle">D</a>
+                                <a href="#" class="sm-btn orange-circle ">D</a>
+                                <a href="#" class="sm-btn green-circle">S</a>
+                                <a href="#" class="sm-btn blue-circle">H</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--                <p>THE LAST</p>-->
+            <div class="img-position d-none d-md-block">
+                <img class="sm-image" src="images/mobile-phone.jpg" alt="">
+                <H5>THE ADMIN BAR AND THE ABSOLUTE POSITIONING</H5>
+            </div>
+            <div class="img-position d-none d-md-block">
+                <img class="sm-image" src="images/head.jpg" alt="">
+                <H5>NIBBLER AWESOME WEBSITE TESTING</H5>
+            </div>
+            <div class="img-position d-none d-md-block">
+                <img class="sm-image" src="images/ipad.jpg" alt="">
+                <h5>HOW TO GET GOOGLE TO LIKE YOU</h5>
+            </div>
+            <br><br>
+            <div class="img-position d-none d-md-block">
+                <img class="sm-image" src="images/twitter-icon.png" alt="">
+                <br><h6>LAST TWEET</h6><br>
+            </div>
+            <div class="img-position d-none d-md-block">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi architecto deleniti
+                    dicta
+                    ducimus eligendi est fugiat incidunt ipsam laudantium libero maxime</p>
+            </div>
         </div>
     </div>
+</div>
+</div>
 </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
