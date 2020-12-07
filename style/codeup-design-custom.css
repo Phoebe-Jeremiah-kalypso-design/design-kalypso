@@ -240,7 +240,7 @@
 
     .navbar ul {
         list-style-type: none;
- width: 100%
+ width: 100%;
         display: flex;
         flex-wrap: wrap;
     }
@@ -422,7 +422,7 @@
 
     .navbar ul {
         list-style-type: none;
-        width: 100%
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
     }
@@ -516,28 +516,364 @@
 
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px)and (max-width: 1199px) {
+    .jumbotron {
+        background-color: #E6E6E6;
+        text-align: center;
 
+    }
 
-    .h6-left {
+    body {
+        font-family: abel regular;
+        background-color: #E6E6E6;
+    }
+
+    h1, h2, h5, h6 {
+        font-family: anton regular;
+    }
+
+    h1 {
+        font-weight: bold;
+    }
+
+    /*button*/
+    .btn-design {
+        width: 105px;
+        height: 105px;
+        border-radius: 50%;
+        /*margin: 20px;*/
+        border: 7.5px solid #F0F0F0;
+        color: #F0F0F0;
+        font-weight: bold;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .sm-btn {
+        background: orange;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        color: black;
+        padding: 5px;
+        font-weight: bold;
+        font-size: 10px;
+
+    }
+
+    .lg-btn {
+        /*padding: 40px;*/
+        /*margin-bottom: 20px;*/
+
+    }
+
+    /*circle*/
+    .sm-red-circle {
+        position: absolute;
+        left: 350px;
+    }
+
+    .red-circle {
+        background-color: #E6563B;
+
+    }
+
+    .orange-circle {
+        background-color: #EB9D3A;
+    }
+
+    .green-circle {
+        background-color: #7CB06C;
+    }
+
+    .blue-circle {
+        background-color: #00ABA9;
+    }
+
+    .top-circle {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /*nav*/
+    .logo-img {
+        height: 105px;
+        width: 105px;
+
+    }
+
+    .navbar ul {
+        list-style-type: none;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .navbar ul li a {
+        padding: 20px;
+        /*margin: 20px;*/
+        text-decoration: none;
+        color: black;
+    }
+
+    .nav-background {
+        background-color: white;
+        height: 50px;
+        width: 100%;
+        position: absolute;
+        top: 90px;
+    }
+
+    /*images*/
+    .sm-image {
+        height: 50px;
+        width: 50px;
+        margin-right: 15px;
+    }
+
+    .card-img-top {
+        width: 100%;
+        border: 10px solid lightgray;
+    }
+
+    .img-position {
+        display: flex;
+        flex-direction: row;
+        margin: 5px;
         text-align: left;
     }
 
+    .no-small {
+        padding: 10px;
+        /*margin: 10px;*/
+    }
+
+    .top-container {
+        margin: auto;
+    }
+
+    .bottom-container {
+        margin: 35px 15px 20px;
+    }
+
+    .card-body {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 5px;
+        /*width: 50%;*/
+    }
+
+    .card-text {
+        float: left;
+        font-size: 10px;
+        padding: 0;
+
+        /*width: 50%;*/
+    }
+
+    .card1 {
+        width: calc(50% - 30px);
+        margin: 0;
+        float: left;
+
+    }
+
+    .card2 {
+        width: calc(50% - 30px);
+        margin: 0;
+        float: right;
+    }
+
     .nav-pos {
-        top: 50px;
+        top: -120px;
+        width: 100%;
+        right: 120px;
+        padding: 0;
+    }
+
+    li > a {
+        margin: 35px;
     }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
-    .top-container {
-        border-bottom: solid lightgray;
+    .jumbotron {
+        background-color: #E6E6E6;
+        text-align: center;
+
     }
 
-    .h6-left {
+    body {
+        font-family: abel regular;
+        background-color: #E6E6E6;
+    }
+
+    h1, h2, h5, h6 {
+        font-family: anton regular;
+    }
+
+    h1 {
+        font-weight: bold;
+    }
+
+    /*button*/
+    .btn-design {
+        width: 105px;
+        height: 105px;
+        border-radius: 50%;
+        /*margin: 20px;*/
+        border: 7.5px solid #F0F0F0;
+        color: #F0F0F0;
+        font-weight: bold;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .sm-btn {
+        background: orange;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        color: black;
+        padding: 5px;
+        font-weight: bold;
+        font-size: 10px;
+
+    }
+
+    .lg-btn {
+        /*padding: 40px;*/
+        /*margin-bottom: 20px;*/
+
+    }
+
+    /*circle*/
+    .sm-red-circle {
+        position: absolute;
+        left: 350px;
+    }
+
+    .red-circle {
+        background-color: #E6563B;
+
+    }
+
+    .orange-circle {
+        background-color: #EB9D3A;
+    }
+
+    .green-circle {
+        background-color: #7CB06C;
+    }
+
+    .blue-circle {
+        background-color: #00ABA9;
+    }
+
+    .top-circle {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /*nav*/
+    .logo-img {
+        height: 105px;
+        width: 105px;
+
+    }
+
+    .navbar ul {
+        list-style-type: none;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .navbar ul li a {
+        padding: 20px;
+        /*margin: 20px;*/
+        text-decoration: none;
+        color: black;
+    }
+
+    .nav-background {
+        background-color: white;
+        height: 50px;
+        width: 100%;
+        position: absolute;
+        top: 90px;
+    }
+
+    /*images*/
+    .sm-image {
+        height: 50px;
+        width: 50px;
+        margin-right: 15px;
+    }
+
+    .card-img-top {
+        width: 100%;
+        border: 10px solid lightgray;
+    }
+
+    .img-position {
+        display: flex;
+        flex-direction: row;
+        margin: 5px;
         text-align: left;
     }
 
+    .no-small {
+        padding: 10px;
+        /*margin: 10px;*/
+    }
+
+    .top-container {
+        margin: auto;
+    }
+
+    .bottom-container {
+        margin: 35px 15px 20px;
+    }
+
+    .card-body {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 5px;
+        /*width: 50%;*/
+    }
+
+    .card-text {
+        float: left;
+        font-size: 10px;
+        padding: 0;
+
+        /*width: 50%;*/
+    }
+
+    .card1 {
+        width: calc(50% - 30px);
+        margin: 0;
+        float: left;
+
+    }
+
+    .card2 {
+        width: calc(50% - 30px);
+        margin: 0;
+        float: right;
+    }
+
     .nav-pos {
-        top: 50px;
+        top: -120px;
+        width: 100%;
+        right: 120px;
+        padding: 0;
+    }
+
+    li > a {
+        margin: 35px;
     }
 }
